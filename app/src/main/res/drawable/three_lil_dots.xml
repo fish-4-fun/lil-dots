@@ -1,0 +1,100 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="48dp"
+            android:height="48dp"
+            android:viewportWidth="48"
+            android:viewportHeight="48">
+            <group android:name="2">
+                <path
+                    android:name="path5088"
+                    android:pathData="M 26.741 27.247 C 27.819 26.309 28.314 24.867 28.04 23.464 C 27.767 22.061 26.766 20.911 25.414 20.447 C 24.062 19.983 22.566 20.275 21.488 21.213 C 20.41 22.152 19.915 23.594 20.189 24.996 C 20.462 26.399 21.463 27.549 22.815 28.013 C 24.167 28.477 25.663 28.185 26.741 27.247 Z"
+                    android:fillColor="@color/colorPrimary"
+                    android:strokeWidth="0"/>
+            </group>
+            <group android:name="3">
+                <path
+                    android:name="path5088_1"
+                    android:pathData="M 41.288 27.247 C 42.366 26.309 42.861 24.866 42.587 23.464 C 42.314 22.061 41.313 20.911 39.961 20.447 C 38.609 19.983 37.113 20.275 36.035 21.213 C 34.369 22.664 34.194 25.19 35.645 26.857 C 37.095 28.523 39.622 28.697 41.288 27.247 Z"
+                    android:fillColor="@color/colorPrimary"
+                    android:strokeWidth="0"/>
+            </group>
+            <group android:name="1">
+                <path
+                    android:name="path5088_2"
+                    android:pathData="M 11.965 27.121 C 13.631 25.67 13.806 23.144 12.355 21.478 C 10.905 19.812 8.378 19.637 6.712 21.087 C 5.046 22.538 4.871 25.065 6.322 26.731 C 7.772 28.397 10.299 28.572 11.965 27.121 Z"
+                    android:fillColor="@color/colorPrimary"
+                    android:strokeWidth="0"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="2">
+        <aapt:attr name="android:animation">
+            <set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="together">
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="175"
+                    android:duration="350"
+                    android:valueFrom="0"
+                    android:valueTo="-12"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="525"
+                    android:duration="350"
+                    android:valueFrom="-12"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/bounce_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="1">
+        <aapt:attr name="android:animation">
+            <set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="together">
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="0"
+                    android:duration="350"
+                    android:valueFrom="0"
+                    android:valueTo="-12"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="350"
+                    android:duration="350"
+                    android:valueFrom="-12"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/bounce_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="3">
+        <aapt:attr name="android:animation">
+            <set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="together">
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="700"
+                    android:duration="350"
+                    android:valueFrom="-12"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/bounce_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="350"
+                    android:duration="350"
+                    android:valueFrom="0"
+                    android:valueTo="-12"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
